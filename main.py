@@ -42,7 +42,7 @@ def rec_streamlit():
 #%% ----------------------------- OPEN AI FUNCTIONS  -----------------------------------
 def get_transcript_whisper(file_path):
     '''Get the transcript of the audio file'''
-    openai.api_key = OPENAI_API_KEY
+    openai.api_key = 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
     with open(file_path, "rb") as file:
         transcription = openai.Audio.transcribe("whisper-1", file, response_format="json")
     transcribed_text = transcription["text"]
