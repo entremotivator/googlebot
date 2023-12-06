@@ -10,3 +10,6 @@ ipython~=8.14.0
 openai~=0.27.8
 gtts~=2.3.1
 pydub~=0.25.1
+langchain==<version>  # Replace <version> with the specific version you need
+google-cloud-aiplatform==<version>
+pydantic==1.8.3
